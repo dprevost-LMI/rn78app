@@ -53,7 +53,7 @@ const FbteeExamples: React.FC = () => {
         <Text style={styles.text}>
           <fbt desc="Welcome message with user component">
             Welcome back, <UserNameComponent name={mockUser.name} />!
-            Check out your <LinkComponent>dashboard</LinkComponent>.
+            Check out your <LinkComponent children={undefined}>dashboard</LinkComponent>.
           </fbt>
         </Text>
       </View>
@@ -71,7 +71,7 @@ const FbteeExamples: React.FC = () => {
             /> joined the game.
           </fbt>
         </Text>
-        
+
         <Text style={styles.text}>
           Using list function: {list(players, 'or', 'comma')}
         </Text>
