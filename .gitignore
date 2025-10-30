@@ -73,3 +73,8 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# fbtee generated files
+.enum_manifest.json
+source_strings.json
+src/translations/
