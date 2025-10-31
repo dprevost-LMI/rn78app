@@ -1,0 +1,961 @@
+{
+  "childParentMappings": {},
+  "phrases": [
+    {
+      "hashToLeaf": {
+        "5c9sLtxJvqN2dGQjXTwPFQ==": {
+          "desc": "Basic welcome message",
+          "text": "Welcome to our React Native app!"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 11,
+          "index": 1175
+        },
+        "end": {
+          "line": 33,
+          "column": 75,
+          "index": 1239
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Basic welcome message",
+          "text": "Welcome to our React Native app!"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "BL1AxHLXx4nuUA0Cf7jtRA==": {
+          "desc": "Welcome message with user name",
+          "text": "Hello {userName}, welcome back!"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 41,
+          "column": 11,
+          "index": 1460
+        },
+        "end": {
+          "line": 41,
+          "column": 117,
+          "index": 1566
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Welcome message with user name",
+          "text": "Hello {userName}, welcome back!"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "kY0uiOwwBxTG9cTBeq43QA==": {
+          "desc": "Welcome message with user component",
+          "text": "Welcome back, {userName}! Check out your {dashboardLink}."
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 49,
+          "column": 11,
+          "index": 1792
+        },
+        "end": {
+          "line": 49,
+          "column": 238,
+          "index": 2019
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Welcome message with user component",
+          "text": "Welcome back, {userName}! Check out your {dashboardLink}."
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "srDgo5bjsmTUqRPBBo5VJw==": {
+          "desc": "Players in game",
+          "text": "{playerList} joined the game."
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 57,
+          "column": 11,
+          "index": 2245
+        },
+        "end": {
+          "line": 57,
+          "column": 104,
+          "index": 2338
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Players in game",
+          "text": "{playerList} joined the game."
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "4NdhnWmN2FKYzRcG/gN2JA==": {
+          "desc": "Item count",
+          "text": "You have {itemCount} items in your cart."
+        },
+        "mUoEwnDBZyFyf/PFTsg3Ag==": {
+          "desc": "Item count",
+          "text": "You have one item in your cart."
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 69,
+          "column": 11,
+          "index": 2664
+        },
+        "end": {
+          "line": 69,
+          "column": 155,
+          "index": 2808
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [
+          {
+            "singular": true,
+            "token": "itemCount",
+            "type": 2
+          }
+        ],
+        "t": {
+          "*": {
+            "desc": "Item count",
+            "text": "You have {itemCount} items in your cart."
+          },
+          "_1": {
+            "desc": "Item count",
+            "text": "You have one item in your cart."
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "j/7yBC9l58NcRxQmrDR7AQ==": {
+          "desc": "Add item button",
+          "text": "Add Item"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 74,
+          "column": 19,
+          "index": 2912
+        },
+        "end": {
+          "line": 74,
+          "column": 53,
+          "index": 2946
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Add item button",
+          "text": "Add Item"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "rqSZGNEsi5Twf16Q58jT/Q==": {
+          "desc": "Remove item button",
+          "text": "Remove Item"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 78,
+          "column": 19,
+          "index": 3054
+        },
+        "end": {
+          "line": 78,
+          "column": 59,
+          "index": 3094
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Remove item button",
+          "text": "Remove Item"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "4ZZQI7KVq29qIhSjC1xAMw==": {
+          "desc": "Bot game confirmation",
+          "text": "Do you want to play against {numberOfBots} bots?"
+        },
+        "b8PO02h7bIxCxzg/3UxB9w==": {
+          "desc": "Bot game confirmation",
+          "text": "Do you want to play against a bot?"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 84,
+          "column": 11,
+          "index": 3249
+        },
+        "end": {
+          "line": 84,
+          "column": 170,
+          "index": 3408
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [
+          {
+            "singular": true,
+            "token": "numberOfBots",
+            "type": 2
+          }
+        ],
+        "t": {
+          "*": {
+            "desc": "Bot game confirmation",
+            "text": "Do you want to play against {numberOfBots} bots?"
+          },
+          "_1": {
+            "desc": "Bot game confirmation",
+            "text": "Do you want to play against a bot?"
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "q+mzoKmUEXd4gNyk4EIEpw==": {
+          "desc": "Add bot button",
+          "text": "Add Bot"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 89,
+          "column": 19,
+          "index": 3512
+        },
+        "end": {
+          "line": 89,
+          "column": 51,
+          "index": 3544
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Add bot button",
+          "text": "Add Bot"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "mFErfAr8ntabTkLNat8G0Q==": {
+          "desc": "Remove bot button",
+          "text": "Remove Bot"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 93,
+          "column": 19,
+          "index": 3650
+        },
+        "end": {
+          "line": 93,
+          "column": 57,
+          "index": 3688
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Remove bot button",
+          "text": "Remove Bot"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "5JuiFAkEH/e6MMqQO/y5Sg==": {
+          "desc": "Photo sharing text",
+          "text": "{name} shared her photo with you."
+        },
+        "Vm65hMLG8Ol/vTdg4cDkdw==": {
+          "desc": "Photo sharing text",
+          "text": "{name} shared his photo with you."
+        },
+        "pDDQlFXJxcLytUQdM62xPw==": {
+          "desc": "Photo sharing text",
+          "text": "{name} shared their photo with you."
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 103,
+          "column": 11,
+          "index": 3970
+        },
+        "end": {
+          "line": 103,
+          "column": 173,
+          "index": 4132
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [
+          null
+        ],
+        "t": {
+          "1": {
+            "desc": "Photo sharing text",
+            "text": "{name} shared her photo with you."
+          },
+          "2": {
+            "desc": "Photo sharing text",
+            "text": "{name} shared his photo with you."
+          },
+          "*": {
+            "desc": "Photo sharing text",
+            "text": "{name} shared their photo with you."
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "YebuwvjC6I4tk/ce40RoMg==": {
+          "desc": "User activity",
+          "text": "{name} updated her profile."
+        },
+        "vkG4wYwRlcbZWlV3oTmO3A==": {
+          "desc": "User activity",
+          "text": "{name} updated his profile."
+        },
+        "0qKsQrTyA243Bh7l3Y2z7w==": {
+          "desc": "User activity",
+          "text": "{name} updated their profile."
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 107,
+          "column": 11,
+          "index": 4205
+        },
+        "end": {
+          "line": 107,
+          "column": 162,
+          "index": 4356
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [
+          null
+        ],
+        "t": {
+          "1": {
+            "desc": "User activity",
+            "text": "{name} updated her profile."
+          },
+          "2": {
+            "desc": "User activity",
+            "text": "{name} updated his profile."
+          },
+          "*": {
+            "desc": "User activity",
+            "text": "{name} updated their profile."
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "EeNUOUb8qgX4UK3OjUdrYw==": {
+          "desc": "Save button accessibility label",
+          "text": "Save document"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 116,
+          "column": 30,
+          "index": 4622
+        },
+        "end": {
+          "line": 116,
+          "column": 85,
+          "index": 4677
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Save button accessibility label",
+          "text": "Save document"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "mgyMMd++9N7/jEpd6xOAag==": {
+          "desc": "Save button text",
+          "text": "Save"
+        }
+      },
+      "filename": "src/components/FbteeExamples.tsx",
+      "loc": {
+        "start": {
+          "line": 119,
+          "column": 13,
+          "index": 4745
+        },
+        "end": {
+          "line": 119,
+          "column": 44,
+          "index": 4776
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Save button text",
+          "text": "Save"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "T/wz7cSosRo27wfHOzsptQ==": {
+          "desc": "Simple example title",
+          "text": "Simple fbtee Example"
+        }
+      },
+      "filename": "src/components/SimpleExample.tsx",
+      "loc": {
+        "start": {
+          "line": 15,
+          "column": 9,
+          "index": 387
+        },
+        "end": {
+          "line": 15,
+          "column": 60,
+          "index": 438
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Simple example title",
+          "text": "Simple fbtee Example"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "cCKu7ts7tbIFa7tUwhSPOQ==": {
+          "desc": "Description text",
+          "text": "This is a simple internationalization example using fbtee."
+        }
+      },
+      "filename": "src/components/SimpleExample.tsx",
+      "loc": {
+        "start": {
+          "line": 21,
+          "column": 9,
+          "index": 500
+        },
+        "end": {
+          "line": 21,
+          "column": 94,
+          "index": 585
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Description text",
+          "text": "This is a simple internationalization example using fbtee."
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "HLRVc5hIDYRVaHph8B3XDQ==": {
+          "desc": "Button to increment counter",
+          "text": "Increment"
+        }
+      },
+      "filename": "src/components/SimpleExample.tsx",
+      "loc": {
+        "start": {
+          "line": 29,
+          "column": 15,
+          "index": 705
+        },
+        "end": {
+          "line": 29,
+          "column": 62,
+          "index": 752
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Button to increment counter",
+          "text": "Increment"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "ePxssX3XFEoO5EGRBsD88A==": {
+          "desc": "Button to reset counter",
+          "text": "Reset"
+        }
+      },
+      "filename": "src/components/SimpleExample.tsx",
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 15,
+          "index": 837
+        },
+        "end": {
+          "line": 34,
+          "column": 54,
+          "index": 876
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "Button to reset counter",
+          "text": "Reset"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "IYUmtYxQtGdt1MucjXrsVA==": {
+          "desc": "Label with meaning 'at least number'",
+          "text": "{number}+"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 19,
+          "column": 4,
+          "index": 601
+        },
+        "end": {
+          "line": 24,
+          "column": 10,
+          "index": 844
+        }
+      },
+      "project": "locale_data",
+      "jsfbt": {
+        "m": [
+          {
+            "token": "number",
+            "type": 2
+          }
+        ],
+        "t": {
+          "*": {
+            "desc": "Label with meaning 'at least number'",
+            "text": "{number}+"
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "ZIF1WhVQwt7WZJvFTEbMWw==": {
+          "desc": "Label with meaning 'less than number'",
+          "text": "<{number}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 34,
+          "column": 4,
+          "index": 1028
+        },
+        "end": {
+          "line": 39,
+          "column": 10,
+          "index": 1272
+        }
+      },
+      "project": "locale_data",
+      "jsfbt": {
+        "m": [
+          {
+            "token": "number",
+            "type": 2
+          }
+        ],
+        "t": {
+          "*": {
+            "desc": "Label with meaning 'less than number'",
+            "text": "<{number}"
+          }
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "Oc/9PrbjfyLHS60BXceD1A==": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}; {following items}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 33,
+          "column": 10,
+          "index": 958
+        },
+        "end": {
+          "line": 37,
+          "column": 16,
+          "index": 1316
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}; {following items}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "AXXbKEUZuc0ji1IClRrOOw==": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items} • {following items}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 42,
+          "column": 10,
+          "index": 1393
+        },
+        "end": {
+          "line": 45,
+          "column": 16,
+          "index": 1777
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items} • {following items}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "89ACgPMtnwlLDSeqhLBx2Q==": {
+          "desc": "A list of items of various types separated by commas, for example: \"San Francisco, London, Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}, {following items}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 50,
+          "column": 10,
+          "index": 1848
+        },
+        "end": {
+          "line": 54,
+          "column": 16,
+          "index": 2226
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types separated by commas, for example: \"San Francisco, London, Tokyo\". {previous items} and {following items} are themselves lists that contain one or more items.",
+          "text": "{previous items}, {following items}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "5hL7VXOBVnetm46YAjpX0g==": {
+          "desc": "A list of items of various types with a serial comma, for example: \"item1, item2, and item3\"",
+          "text": "{list of items}, and {last item}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 63,
+          "column": 10,
+          "index": 2389
+        },
+        "end": {
+          "line": 67,
+          "column": 16,
+          "index": 2662
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types with a serial comma, for example: \"item1, item2, and item3\"",
+          "text": "{list of items}, and {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "icNetEL/crQv/PS6yhySVQ==": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 and item4\"",
+          "text": "{list of items} and {last item}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 72,
+          "column": 8,
+          "index": 2706
+        },
+        "end": {
+          "line": 76,
+          "column": 14,
+          "index": 2950
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 and item4\"",
+          "text": "{list of items} and {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "8kLAQ3ffiiFnQ/bWPqXfuQ==": {
+          "desc": "A list of items of various types with a serial comma, for example: \"item1, item2, or item3\"",
+          "text": "{list of items}, or {last item}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 82,
+          "column": 10,
+          "index": 3075
+        },
+        "end": {
+          "line": 86,
+          "column": 16,
+          "index": 3346
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types with a serial comma, for example: \"item1, item2, or item3\"",
+          "text": "{list of items}, or {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "8eSaAzrWtAqn9ktNKfkaEg==": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 or item4\"",
+          "text": "{list of items} or {last item}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 91,
+          "column": 8,
+          "index": 3390
+        },
+        "end": {
+          "line": 95,
+          "column": 14,
+          "index": 3632
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3 or item4\"",
+          "text": "{list of items} or {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "+IBI7kr/mMKdzp+3stDvkw==": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} itself contains one or more items.",
+          "text": "{previous items}; {last item}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 102,
+          "column": 12,
+          "index": 3744
+        },
+        "end": {
+          "line": 106,
+          "column": 18,
+          "index": 4060
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"San Francisco; London; Tokyo\". {previous items} itself contains one or more items.",
+          "text": "{previous items}; {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "55IeE8c0qqtjTU0lo7q9AA==": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} contains one or more items.",
+          "text": "{list of items} • {last item}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 110,
+          "column": 12,
+          "index": 4128
+        },
+        "end": {
+          "line": 113,
+          "column": 18,
+          "index": 4460
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types separated by bullets, for example: \"San Francisco \\u2022 London \\u2022 Tokyo\". {previous items} contains one or more items.",
+          "text": "{list of items} • {last item}"
+        }
+      }
+    },
+    {
+      "hashToLeaf": {
+        "6PRJS0QalZfvaN8CkKCUCw==": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3, item4\"",
+          "text": "{list of items}, {last item}"
+        }
+      },
+      "filename": "node_modules/fbtee/lib/index.js",
+      "loc": {
+        "start": {
+          "line": 117,
+          "column": 12,
+          "index": 4522
+        },
+        "end": {
+          "line": 121,
+          "column": 18,
+          "index": 4782
+        }
+      },
+      "project": "",
+      "jsfbt": {
+        "m": [],
+        "t": {
+          "desc": "A list of items of various types, for example: \"item1, item2, item3, item4\"",
+          "text": "{list of items}, {last item}"
+        }
+      }
+    }
+  ]
+}

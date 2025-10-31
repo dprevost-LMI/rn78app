@@ -9,8 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "tsc": "npx tsc --noEmit",
-    "fbtee:collect": "fbtee collect --src src",
-    "fbtee:translate": "fbtee translate --translations translations/*.json -o src/translations/"
+    "i18n": "fbtee collect --src src && fbtee translate --translations translations/*.json -o src/translations/"
   },
   "dependencies": {
     "fbtee": "^1.7.1",

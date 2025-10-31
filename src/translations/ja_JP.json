@@ -1,0 +1,52 @@
+{
+  "ja_JP": {
+    "2bgNHx": "Welcome to our React Native app!",
+    "3KdIEm": "Hello {userName}, welcome back!",
+    "1KMzcz": "Welcome back, {userName}! Check out your {dashboardLink}.",
+    "JsJq5": "{playerList} joined the game.",
+    "4doL3y": {
+      "*": "You have {itemCount} items in your cart.",
+      "_1": "You have one item in your cart."
+    },
+    "1cOAk": "Add Item",
+    "XKnnA": "Remove Item",
+    "4zv4cI": {
+      "*": "Do you want to play against {numberOfBots} bots?",
+      "_1": "Do you want to play against a bot?"
+    },
+    "1bsYCb": "Add Bot",
+    "1daNLF": "Remove Bot",
+    "41w5He": {
+      "1": "{name} shared her photo with you.",
+      "2": "{name} shared his photo with you.",
+      "*": "{name} shared their photo with you."
+    },
+    "49zP6a": {
+      "1": "{name} updated her profile.",
+      "2": "{name} updated his profile.",
+      "*": "{name} updated their profile."
+    },
+    "3fRqGt": "Save document",
+    "3kifc7": "Save",
+    "22vNJ9": "Simple fbtee Example",
+    "Q9rv8": "This is a simple internationalization example using fbtee.",
+    "24geeh": "Increment",
+    "q6mOj": "Reset",
+    "2VPV74": {
+      "*": "{number}+"
+    },
+    "1REuSN": {
+      "*": "<{number}"
+    },
+    "3uo8du": "{previous items}; {following items}",
+    "1UOVWD": "{previous items} • {following items}",
+    "4DAMgG": "{previous items}, {following items}",
+    "1C255": "{list of items}, and {last item}",
+    "17bm9d": "{list of items} and {last item}",
+    "phH4S": "{list of items}, or {last item}",
+    "3q8AmB": "{list of items} or {last item}",
+    "4zJcb": "{previous items}; {last item}",
+    "1wKCx": "{list of items} • {last item}",
+    "3Q0iaX": "{list of items}, {last item}"
+  }
+}
