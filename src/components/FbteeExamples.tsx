@@ -30,9 +30,7 @@ const FbteeExamples: React.FC = () => {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>1. Basic fbt</Text>
         <Text style={styles.text}>
-          <fbt desc="Basic welcome message">
-            Welcome to our React Native app!
-          </fbt>
+          {fbt('Welcome to our React Native app!', 'Basic welcome message')}
         </Text>
       </View>
 
@@ -40,10 +38,7 @@ const FbteeExamples: React.FC = () => {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>2. Parameters</Text>
         <Text style={styles.text}>
-          <fbt desc="Welcome message with user name">
-            Hello <fbt:param name="userName">{mockUser.name}</fbt:param>, 
-            welcome back!
-          </fbt>
+          {fbt('Hello ' + fbt.param('userName', mockUser.name) + ', welcome back!', 'Welcome message with user name')}
         </Text>
       </View>
 
@@ -51,10 +46,7 @@ const FbteeExamples: React.FC = () => {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>3. React Components</Text>
         <Text style={styles.text}>
-          <fbt desc="Welcome message with user component">
-            Welcome back, <UserNameComponent name={mockUser.name} />!
-            Check out your <LinkComponent>dashboard</LinkComponent>.
-          </fbt>
+          {fbt('Welcome back, ' + fbt.param('userName', <UserNameComponent name={mockUser.name} />) + '! Check out your ' + fbt.param('dashboardLink', <LinkComponent>dashboard</LinkComponent>) + '.', 'Welcome message with user component')}
         </Text>
       </View>
 
@@ -62,14 +54,7 @@ const FbteeExamples: React.FC = () => {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>4. Lists & Conjunctions</Text>
         <Text style={styles.text}>
-          <fbt desc="Players in game">
-            <fbt:list
-              items={players}
-              conjunction="and"
-              delimiter="comma"
-              name="playerList"
-            /> joined the game.
-          </fbt>
+          {fbt(fbt.list('playerList', players, 'and', 'comma') + ' joined the game.', 'Players in game')}
         </Text>
 
         <Text style={styles.text}>
@@ -81,18 +66,7 @@ const FbteeExamples: React.FC = () => {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>5. Pluralization</Text>
         <Text style={styles.text}>
-          <fbt desc="Item count">
-            You have
-            <fbt:plural
-              count={itemCount}
-              many="items"
-              name="itemCount"
-              showCount="ifMany"
-            >
-              one item
-            </fbt:plural>
-            in your cart.
-          </fbt>
+          {fbt('You have ' + fbt.plural('one item', itemCount, { many: 'items', showCount: 'ifMany', name: 'itemCount' }) + ' in your cart.', 'Item count')}
         </Text>
         
         <View style={styles.buttonRow}>
@@ -107,17 +81,7 @@ const FbteeExamples: React.FC = () => {
         </View>
         
         <Text style={styles.text}>
-          <fbt desc="Bot game confirmation">
-            Do you want to play against
-            <fbt:plural
-              count={botCount}
-              many="bots"
-              name="numberOfBots"
-              showCount="ifMany"
-            >
-              a bot
-            </fbt:plural>?
-          </fbt>
+          {fbt('Do you want to play against ' + fbt.plural('a bot', botCount, { many: 'bots', showCount: 'ifMany', name: 'numberOfBots' }) + '?', 'Bot game confirmation')}
         </Text>
         
         <View style={styles.buttonRow}>
@@ -136,29 +100,11 @@ const FbteeExamples: React.FC = () => {
       <View style={styles.section}>
         <Text style={styles.sectionTitle}>6. Pronouns</Text>
         <Text style={styles.text}>
-          <fbt desc="Photo sharing text">
-            <fbt:param name="name">{mockUser.name}</fbt:param>
-            shared
-            <fbt:pronoun
-              type="possessive"
-              gender={mockUser.pronounGender}
-              human
-            />
-            photo with you.
-          </fbt>
+          {fbt(fbt.param('name', mockUser.name) + ' shared ' + fbt.pronoun('possessive', mockUser.pronounGender, { human: true }) + ' photo with you.', 'Photo sharing text')}
         </Text>
         
         <Text style={styles.text}>
-          <fbt desc="User activity">
-            <fbt:param name="name">{mockUser.name}</fbt:param>
-            updated
-            <fbt:pronoun
-              type="possessive"
-              gender={mockUser.pronounGender}
-              human
-            />
-            profile.
-          </fbt>
+          {fbt(fbt.param('name', mockUser.name) + ' updated ' + fbt.pronoun('possessive', mockUser.pronounGender, { human: true }) + ' profile.', 'User activity')}
         </Text>
       </View>
 

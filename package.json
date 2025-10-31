@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "start": "react-native start",
     "test": "jest",
+    "tsc": "npx tsc --noEmit",
     "fbtee:collect": "fbtee collect --src src",
     "fbtee:translate": "fbtee translate --translations translations/*.json -o src/translations/"
   },
