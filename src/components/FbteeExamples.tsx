@@ -13,7 +13,7 @@ const UserNameComponent: React.FC<{name: string}> = ({name}) => (
   <Text style={{fontWeight: 'bold', color: 'blue'}}>{name}</Text>
 );
 
-const LinkComponent: React.FC<{children: React.ReactNode}> = ({children}) => (
+const LinkComponent: React.FC<{children?: React.ReactNode}> = ({children}) => (
   <Text style={{color: 'blue', textDecorationLine: 'underline'}}>{children}</Text>
 );
 
@@ -53,7 +53,7 @@ const FbteeExamples: React.FC = () => {
         <Text style={styles.text}>
           <fbt desc="Welcome message with user component">
             Welcome back, <UserNameComponent name={mockUser.name} />!
-            Check out your <LinkComponent children={undefined}>dashboard</LinkComponent>.
+            Check out your <LinkComponent>dashboard</LinkComponent>.
           </fbt>
         </Text>
       </View>
